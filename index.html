@@ -24,6 +24,35 @@
       <p>Your perfect cup, every day. Step into warmth, aroma, and comfort.</p>
       <a href="menu.html" class="cta-button">Explore Our Menu</a>
     </div>
-  </header>
+    </header>
+    <!-- Loyalty Program Section -->
+  <section class="loyalty-program">
+    <h2>Join Our Loyalty Program</h2>
+    <p>Earn points with every purchase and redeem them for exciting rewards. Sign up today!</p>
+    <form id="loyalty-form">
+      <label for="name">Name:</label><br/>
+      <input type="text" id="name" name="name" required/><br/>
+      <label for="email">Email:</label><br/>
+      <input type="email" id="email" name="email" required/><br/>
+      <button type="submit" class="cta-button">Join Now</button>
+    </form>
+  </section>
+
+  <!-- Coffee Tasting Flight Section -->
+  <section class="coffee-tasting">
+    <h2>Interactive Coffee Tasting</h2>
+    <p>Experience our variety with a personalized coffee tasting flight. Choose your favorites!</p>
+    <form id="coffee-tasting-form">
+      <label>Select your tasting options:</label><br/>
+      <input type="checkbox" id="espresso" name="coffee" value="Espresso"/> Espresso<br/>
+      <input type="checkbox" id="latte" name="coffee" value="Latte"/> Latte<br/>
+      <input type="checkbox" id="cappuccino" name="coffee" value="Cappuccino"/> Cappuccino<br/>
+      <input type="checkbox" id="cold-brew" name="coffee" value="Cold Brew"/> Cold Brew<br/>
+      <input type="checkbox" id="macchiato" name="coffee" value="Macchiato"/> Macchiato<br/><br/>
+      <button type="submit" class="cta-button">Submit Your Choices</button>
+    </form>
+  </section>
+
+  <script src="script.js"></script>
 </body>
 </html>
